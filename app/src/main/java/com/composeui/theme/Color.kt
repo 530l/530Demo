@@ -1,4 +1,4 @@
-package com.example.bledemo.ui.theme
+package com.composeui.theme
 
 import androidx.compose.ui.graphics.Color
 

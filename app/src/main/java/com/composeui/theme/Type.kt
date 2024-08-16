@@ -1,4 +1,4 @@
-package com.example.bledemo.ui.theme
+package com.composeui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

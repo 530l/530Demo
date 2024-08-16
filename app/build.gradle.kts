@@ -1,6 +1,8 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
+    alias(libs.plugins.ksp)
+    alias(libs.plugins.hilt)
 }
 
 android {
@@ -50,6 +52,7 @@ android {
     }
 }
 
+
 dependencies {
 
 
@@ -81,10 +84,8 @@ dependencies {
     implementation (libs.client)
 
 
-    //region dagger hilt
     implementation (libs.androidx.hilt.navigation.compose)
-    implementation ("com.google.dagger:hilt-android:2.51.1")
-    kapt ( 'com.google.dagger:hilt-compiler:2.47')
-    //endregion dagger hilt
+    implementation (libs.hilt.android)
+    ksp (libs.hilt.compiler)
 
 }
