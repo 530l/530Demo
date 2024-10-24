@@ -88,4 +88,7 @@ dependencies {
     implementation (libs.hilt.android)
     ksp (libs.hilt.compiler)
 
+    implementation (libs.xlog)
+    implementation (libs.utilcodex)
+
 }

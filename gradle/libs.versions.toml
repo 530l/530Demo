@@ -16,7 +16,9 @@ activityCompose = "1.9.1"
 composeBom = "2024.04.01"
 lifecycleViewmodelCompose = "2.8.4"
 scanner = "1.1.0"
+utilcodex = "1.31.1"
 viewbinding = "8.5.2"
+xlog = "1.11.1"
 xxpermissions = "20.0"
 lifecycleRuntimeComposeAndroid = "2.8.4"
 
@@ -45,6 +47,8 @@ androidx-hilt-navigation-compose = { module = "androidx.hilt:hilt-navigation-com
 #原来
 hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hilt" }
 hilt-compiler = { module = "com.google.dagger:hilt-compiler", version.ref = "hilt" }
+utilcodex = { module = "com.blankj:utilcodex", version.ref = "utilcodex" }
+xlog = { module = "com.elvishew:xlog", version.ref = "xlog" }
 xxpermissions = { module = "com.github.getActivity:XXPermissions", version.ref = "xxpermissions" }
 androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompat" }
 androidx-fragment-ktx = { module = "androidx.fragment:fragment-ktx", version.ref = "fragmentKtx" }
